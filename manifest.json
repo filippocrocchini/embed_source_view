@@ -1,0 +1,11 @@
+{
+	"id": "embed-source-view",
+	"name": "Embed Source View",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Enables you to embed source files (or parts of them) in your notes.",
+	"author": "Filippo Crocchini",
+	"authorUrl": "https://filippocrocchini.com",
+	"fundingUrl": "https://ko-fi.com/filippocrocchini",
+	"isDesktopOnly": false
+}
