@@ -31,7 +31,6 @@ export class EmbedSourceViewSettingTab extends PluginSettingTab
 		const {containerEl} = this;
 
 		containerEl.empty();
-		// containerEl.createEl('h2', {text: 'Embed Source View Settings'});
 
 		new Setting(containerEl)
 			.setName("Show titles")
