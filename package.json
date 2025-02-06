@@ -1,6 +1,6 @@
 {
 	"name": "embed-source-view",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Plugin to embed portions of local or remote files.",
 	"main": "main.js",
 	"scripts": {
