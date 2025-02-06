@@ -1,4 +1,4 @@
-import { Plugin, MarkdownRenderer, MarkdownView, TFile, parseYaml, requestUrl } from 'obsidian';
+import { Plugin, MarkdownRenderer, TFile, parseYaml, requestUrl } from 'obsidian';
 import { EmbedSourceViewSettings, EmbedSourceViewSettingTab, DEFAULT_SETTINGS } from "./src/settings";
 import { parseRanges, extractRanges } from "./src/utils";
 
