@@ -57,7 +57,7 @@ export default class EmbedSourceView extends Plugin
 			}
 
 			let   markdownSource = fileContent
-			const lang           = (metaYaml.INFO as string).trim();
+			const lang           = (metaYaml.INFO as string)?.trim();
 			const lineRanges     = parseRanges(metaYaml.LINES);
 
 			if (lineRanges.length)
@@ -76,24 +76,6 @@ export default class EmbedSourceView extends Plugin
 			if (this.settings.showTitles && title.length > 0)
 			{
 				addTitle(root_element, title, this.settings);
-				
-				const view = this.app.workspace.getActiveViewOfType(MarkdownView);
-				if (view?.previewMode) {
-					if(root_element.parentElement)
-					{
-						root_element.parentElement.style.marginTop = "1em"
-					}
-				}
-
-				const pre_elements = root_element.getElementsByTagName("pre");
-				if(pre_elements.length)
-				{
-					for (let i = 0; i < pre_elements.length; i++)
-					{
-						const it = pre_elements[i];
-						it.style.margin = "0"
-					}
-				}
 			}
 		});
 	}

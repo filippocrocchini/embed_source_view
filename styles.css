@@ -1,0 +1,9 @@
+
+:not(.markdown-rendered) > .block-language-embed-view
+{
+    margin-top: 1em;
+}
+
+pre {
+    margin: 0;
+}
